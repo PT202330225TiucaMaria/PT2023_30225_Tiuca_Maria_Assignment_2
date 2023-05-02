@@ -1,0 +1,249 @@
+Clienti generati:
+(id: 0, arrivalTime: 4, serviceTime: 3)
+(id: 1, arrivalTime: 4, serviceTime: 3)
+(id: 3, arrivalTime: 9, serviceTime: 4)
+(id: 2, arrivalTime: 17, serviceTime: 3)
+
+Current time: 0
+Queue1:
+Queue2:
+
+Current time: 1
+Queue1:
+Queue2:
+
+Current time: 2
+Queue1:
+Queue2:
+
+Current time: 3
+Queue1:
+Queue2:
+
+Current time: 4
+Queue1:(id: 0, arrivalTime: 4, serviceTime: 3)
+Queue2:(id: 1, arrivalTime: 4, serviceTime: 3)
+
+Current time: 5
+Queue1:(id: 0, arrivalTime: 4, serviceTime: 2)
+Queue2:(id: 1, arrivalTime: 4, serviceTime: 2)
+
+Current time: 6
+Queue1:(id: 0, arrivalTime: 4, serviceTime: 1)
+Queue2:(id: 1, arrivalTime: 4, serviceTime: 1)
+
+Current time: 7
+Queue1:
+Queue2:
+
+Current time: 8
+Queue1:
+Queue2:
+
+Current time: 9
+Queue1:(id: 3, arrivalTime: 9, serviceTime: 4)
+Queue2:
+
+Current time: 10
+Queue1:(id: 3, arrivalTime: 9, serviceTime: 3)
+Queue2:
+
+Current time: 11
+Queue1:(id: 3, arrivalTime: 9, serviceTime: 2)
+Queue2:
+
+Current time: 12
+Queue1:(id: 3, arrivalTime: 9, serviceTime: 1)
+Queue2:
+
+Current time: 13
+Queue1:
+Queue2:
+
+Current time: 14
+Queue1:
+Queue2:
+
+Current time: 15
+Queue1:
+Queue2:
+
+Current time: 16
+Queue1:
+Queue2:
+
+Current time: 17
+Queue1:(id: 2, arrivalTime: 17, serviceTime: 3)
+Queue2:
+
+Current time: 18
+Queue1:(id: 2, arrivalTime: 17, serviceTime: 2)
+Queue2:
+
+Current time: 19
+Queue1:(id: 2, arrivalTime: 17, serviceTime: 1)
+Queue2:
+
+Current time: 20
+Queue1:
+Queue2:
+
+Current time: 21
+Queue1:
+Queue2:
+
+Current time: 22
+Queue1:
+Queue2:
+
+Current time: 23
+Queue1:
+Queue2:
+
+Current time: 24
+Queue1:
+Queue2:
+
+Current time: 25
+Queue1:
+Queue2:
+
+Current time: 26
+Queue1:
+Queue2:
+
+Current time: 27
+Queue1:
+Queue2:
+
+Current time: 28
+Queue1:
+Queue2:
+
+Current time: 29
+Queue1:
+Queue2:
+
+Current time: 30
+Queue1:
+Queue2:
+
+Current time: 31
+Queue1:
+Queue2:
+
+Current time: 32
+Queue1:
+Queue2:
+
+Current time: 33
+Queue1:
+Queue2:
+
+Current time: 34
+Queue1:
+Queue2:
+
+Current time: 35
+Queue1:
+Queue2:
+
+Current time: 36
+Queue1:
+Queue2:
+
+Current time: 37
+Queue1:
+Queue2:
+
+Current time: 38
+Queue1:
+Queue2:
+
+Current time: 39
+Queue1:
+Queue2:
+
+Current time: 40
+Queue1:
+Queue2:
+
+Current time: 41
+Queue1:
+Queue2:
+
+Current time: 42
+Queue1:
+Queue2:
+
+Current time: 43
+Queue1:
+Queue2:
+
+Current time: 44
+Queue1:
+Queue2:
+
+Current time: 45
+Queue1:
+Queue2:
+
+Current time: 46
+Queue1:
+Queue2:
+
+Current time: 47
+Queue1:
+Queue2:
+
+Current time: 48
+Queue1:
+Queue2:
+
+Current time: 49
+Queue1:
+Queue2:
+
+Current time: 50
+Queue1:
+Queue2:
+
+Current time: 51
+Queue1:
+Queue2:
+
+Current time: 52
+Queue1:
+Queue2:
+
+Current time: 53
+Queue1:
+Queue2:
+
+Current time: 54
+Queue1:
+Queue2:
+
+Current time: 55
+Queue1:
+Queue2:
+
+Current time: 56
+Queue1:
+Queue2:
+
+Current time: 57
+Queue1:
+Queue2:
+
+Current time: 58
+Queue1:
+Queue2:
+
+Current time: 59
+Queue1:
+Queue2:
+
+Average waiting time: 8.5
+Average service time: 3.25
+Peek hour: 9

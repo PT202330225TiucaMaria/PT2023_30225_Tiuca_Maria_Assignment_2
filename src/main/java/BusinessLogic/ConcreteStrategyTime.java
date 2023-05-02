@@ -1,5 +1,4 @@
 package BusinessLogic;
-import Model.Client;
 import Model.Queue;
 import java.util.List;
 public class ConcreteStrategyTime implements Strategy {
@@ -11,14 +10,7 @@ public class ConcreteStrategyTime implements Strategy {
         for (int i=0;i<queues.size();i++) {
             Queue q=queues.get(i);
             int waitingTime=0;
-            for(int j=0;j<q.getClients().length-1;j++){
-                if(j==q.getClients().length-1)
-                    waitingTime+=q.getClients()[j].getServiceTime();
-                else {
-                    Client c=q.getClients()[j];
-                    waitingTime+=c.getServiceTime();
-                }
-            }
+            waitingTime=q.getWaitingPeriod();
             if(waitingTime<shortestQueueTime){
                 shortestQueueIndex=i;
                 shortestQueueTime=waitingTime;
@@ -27,6 +19,5 @@ public class ConcreteStrategyTime implements Strategy {
         Queue shortestTime=queues.get(shortestQueueIndex);
         return shortestTime;
     }
-
 }
 

@@ -63,7 +63,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="56533" class="javax.swing.JTextField" binding="textField2" default-binding="true">
         <constraints>
@@ -71,7 +73,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="6d54e" class="javax.swing.JTextField" binding="textField3" default-binding="true">
         <constraints>
@@ -79,7 +83,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="e2f18" class="javax.swing.JLabel" binding="NrQueue">
         <constraints>
@@ -159,7 +165,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="f12da" class="javax.swing.JTextField" binding="textField5" default-binding="true">
         <constraints>
@@ -167,7 +175,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="e4428" class="javax.swing.JTextField" binding="textField6" default-binding="true">
         <constraints>
@@ -175,7 +185,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="be537" class="javax.swing.JTextField" binding="textField7" default-binding="true">
         <constraints>
@@ -183,7 +195,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <hspacer id="c2b5a">
         <constraints>

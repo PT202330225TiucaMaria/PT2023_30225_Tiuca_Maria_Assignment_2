@@ -1,6 +1,7 @@
 package GUI;
 import BusinessLogic.*;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -26,8 +27,16 @@ public class EnterData {
     private JTextField textField7;
     private JButton STARTButton;
     SimulationManager manager;
+    private PrintQueues gui2;
     public EnterData(){
         final JFrame frame=new JFrame();
+  ////////////////////////////////////
+        frame.setTitle("EnterData");
+        frame.setMinimumSize(new Dimension(900,700));
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setContentPane(NrClients);
+        frame.pack();
+///////////////////////////////////////////
         textField1.setVisible(true);
         textField2.setVisible(true);
         textField3.setVisible(true);
@@ -58,9 +67,11 @@ public class EnterData {
                 } else if (shortestTimeCheckBox.isSelected()) {
                     strategy = SHORTEST_TIME;
                 }
-                manager = new SimulationManager(nrClients, nrQueues, simulationTime, minArrivalTime, maxArrivalTime, minServiceTime, maxServiceTime, strategy, frame);
+                gui2=new PrintQueues();
+                manager = new SimulationManager(nrClients, nrQueues, simulationTime, minArrivalTime, maxArrivalTime, minServiceTime, maxServiceTime, strategy, gui2);
                 Thread t = new Thread(manager);
                 t.start();
+                System.out.println("click buton start");
             }
         });
         frame.setVisible(true);

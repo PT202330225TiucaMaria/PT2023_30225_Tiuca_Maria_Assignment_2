@@ -7,16 +7,13 @@ public class Client {
         this.arrivalTime = arrivalTime;
         this.serviceTime = serviceTime;
     }
-    public int getId() {
-        return idClient;
-    }
     public int getArrivalTime() {
         return arrivalTime;
     }
     public int getServiceTime() {
         return serviceTime;
     }
-    public void setServiceTime() { //metoda pentru a actualiza cat mai dureaza servirea clientului curent (adica din fruntea cozii)
+    public void setServiceTime() { //decrementare timpului de servire a clientului din fruntea cozii
         if (serviceTime > 0) serviceTime--;
     }
     public String toString() {

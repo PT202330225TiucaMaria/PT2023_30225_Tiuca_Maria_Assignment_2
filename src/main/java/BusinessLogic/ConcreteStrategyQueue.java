@@ -1,5 +1,4 @@
 package BusinessLogic;
-import Model.Client;
 import Model.Queue;
 import java.util.List;
 public class ConcreteStrategyQueue implements Strategy {

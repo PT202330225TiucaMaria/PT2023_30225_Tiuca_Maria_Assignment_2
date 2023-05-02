@@ -7,19 +7,24 @@ public class Queue implements Runnable {
     private final AtomicInteger waitingPeriod; //utilizam AtomicInteger pentru a evita interferenta thread-urilor
     private boolean isRunning; //variabila care controleaza oprirea fortata a tuturor coziilor
     public Queue() {
+        //initialize queue and waitingPeriod
         clients = new LinkedBlockingQueue<>();
         waitingPeriod = new AtomicInteger();
         isRunning = true;
     }
     public void addClient(Client client) { //adaugam clientul si actualizam timpul total de asteptare la coada
+        //add Client to queue
         clients.add(client);
+        //increment the waitingPeriod
         waitingPeriod.addAndGet(client.getServiceTime());
     }
     public void run() {
         while (isRunning) {
             try {
+                //take next Client from queue
                 Client client = clients.peek();
                 if (client != null) {
+                    //stop the thread for a time equal with the Client's processing time
                     Thread.sleep(client.getServiceTime() * 1000L);
                     clients.remove(client);
                 }
@@ -35,8 +40,9 @@ public class Queue implements Runnable {
     public int getWaitingPeriod() {
         return waitingPeriod.get();
     }
+    //decrement the waitingPeriod
     public void decrementWaitingPeriod() {
-        waitingPeriod.addAndGet(-1); //in fiecare secunda scadem cu o unitate din timpul total de asteptare al cozii
+        waitingPeriod.addAndGet(-1);
     }
     public void stopQueue() {
         isRunning = false;
